@@ -1,0 +1,20 @@
+{
+  "name": "reactWheels",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IslamanaChengzi/reactWheels.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IslamanaChengzi/reactWheels/issues"
+  },
+  "homepage": "https://github.com/IslamanaChengzi/reactWheels#readme"
+}
