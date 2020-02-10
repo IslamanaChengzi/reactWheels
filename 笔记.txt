@@ -1,0 +1,12 @@
+amd  异步 模块 定义 
+require.js  	define(function(){		})
+
+
+node.js			module.exports = { 		}
+commonJS
+
+umd 统一 模块 定义  判断 是否有require 是否有module 最后src引入
+
+
+--save 给用户使用的
+--save-dev给程序员使用
