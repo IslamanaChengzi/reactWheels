@@ -18,18 +18,28 @@ yarn add jquery  (空置不写)
 
     yarn add typescript --dev
 
-    npx webpack  运行正常
+#   npx webpack  运行正常
 
     yarn add webpack-dev-server --dev
         webpack-dev-server的作用，是把编译结果放到内存，没有生成文件
             http://localhost:8080/wheels.js
 
+#    npx webpack-dev-server  运行正常
 
     yarn add html-webpack-plugin --dev 
-
-
     
 
+# 上传到新的仓库
+    git remote add wheels ***git地址
+    git push -u wheels master
     
 
+    添加react仓库
+    yarn add react react-dom
+
+    处理报错
+    yarn add @types/react --dev
+    yarn add @types/react-dom --dev
+    
+    依赖版本可能需要统一到16.8.2
 
