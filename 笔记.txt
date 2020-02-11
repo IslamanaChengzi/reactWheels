@@ -7,9 +7,19 @@ commonJS
 
 umd 统一 模块 定义  判断 是否有require 是否有module 最后src引入
 
-
 --save 给用户使用的
 --save-dev给程序员使用
 
-
 yarn.lock 所有依赖的版本号
+
+开发模式和生产模式影响webpack提示
+
+externals:{
+        react:{
+            commonjs:'react',
+            commonjs2:'react',
+            amd:'react',
+            root:'React'
+        },
+        
+        对应四种打包方式

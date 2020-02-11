@@ -14,6 +14,9 @@ module.exports = {
             // __dirname + '\\dist' // windows写法
 
     },
+    resolve:{
+        extensions:['.ts','.tsx','.js','.jsx'],
+    },
     module:{
         rules:[
             {
@@ -27,5 +30,19 @@ module.exports = {
             title:'Wheels React',
             template:'index.html'
         })
-    ]
+    ],
+    externals:{
+        react:{
+            commonjs:'react',
+            commonjs2:'react',
+            amd:'react',
+            root:'React'
+        },
+        'react-dom':{
+            commonjs:'react-dom',
+            commonjs2:'react-dom',
+            amd:'react-dom',
+            root:'React-dom'
+        }
+    }
 }
