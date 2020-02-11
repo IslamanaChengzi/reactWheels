@@ -43,3 +43,6 @@ yarn add jquery  (空置不写)
     
     依赖版本可能需要统一到16.8.2
 
+    跨平台适配
+    yarn add cross-env --dev
+
