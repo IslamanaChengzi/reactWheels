@@ -24,7 +24,10 @@ yarn add jquery  (空置不写)
         webpack-dev-server的作用，是把编译结果放到内存，没有生成文件
             http://localhost:8080/wheels.js
 
-    
+
+    yarn add html-webpack-plugin --dev 
+
+
     
 
     
