@@ -23,3 +23,5 @@ externals:{
         },
         
         对应四种打包方式
+
+.babelrc 和 babel.config.js  功能一样

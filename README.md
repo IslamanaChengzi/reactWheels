@@ -46,3 +46,12 @@ yarn add jquery  (空置不写)
     跨平台适配
     yarn add cross-env --dev
 
+    安装测试工具
+    yarn add --dev jest babel-jest @babel/preset-env @babel/preset-react react-test-renderer
+
+    安装ts-jest
+    yarn add ts-jest --dev
+
+    处理报错
+    yarn add @types/jest --dev
+    yarn add @types/react-test-renderer --dev 
